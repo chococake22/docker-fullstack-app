@@ -30,10 +30,10 @@ deploy:
   bucket_name: elasticbeanstalk-ap-northeast-2-788343264306
   bucket_path: "docker-fullstack-app"
   on:
-    # master 브랜치에 푸시할 때만 deploy가 적용된다
     branch: master
 
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_ACCESS_KEY
+  
 
 
